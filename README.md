@@ -1,6 +1,6 @@
 # RD1622 Introduction:
 
-The RD1622 Reference Design is a Pelion Ready design based on the hostless Advantech WISE-1530 Wi-Fi module which includes an ST Microcontroller (STM32F412) and a Cypress Wi-Fi device (CYW43362).
+The RD1622 Reference Design is a Pelion Ready design based on the hostless Advantech WISE-1530 Wi-Fi module which includes an ST Microcontroller (STM32F412) and a Cypress Wi-Fi device (CYW43438).
 
 The reference design is a tested and proven starting point targetted towards the creation of both Development Boards and End Products.
 
