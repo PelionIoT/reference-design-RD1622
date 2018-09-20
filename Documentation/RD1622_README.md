@@ -4,6 +4,8 @@ This Reference Application is targetted specifically at the RD1622 Reference Des
 
 The current version of the Reference Application uses: Mbed OS v5.9.5 and Mbed Cloud Client v1.3.3.
 
+Note: references to Mbed Cloud and Pelion Device Managament are interchangeable.  For example: “Mbed Cloud Client enables the device to communicate with Pelion Device Management” and “Mbed Cloud Client enables the device to communicate with Mbed Cloud” have the same meaning.  In later versions we will remove references to Mbed Cloud inline with branding guidelines.
+
 # Pre-requisites:
 1. Hardware:
     * RD1622 based board or platform (the application was developed and tested using the Example Implemenation Hardware - MCB/MTB
@@ -18,7 +20,7 @@ The current version of the Reference Application uses: Mbed OS v5.9.5 and Mbed C
 
 # Getting started:
 1. Import this example to your local machine with mbed CLI:
-    ``` mbed import https://github.com/ARMmbed/reference-designs.git ```
+    ``` mbed import https://github.com/ARMmbed/reference-design-RD1622.git ```
 
 2. Move into the RD1622 directory ``` cd RD1622 ```
     * Login to your Pelion Cloud account on a browser & follow the steps below:
@@ -30,7 +32,7 @@ The current version of the Reference Application uses: Mbed OS v5.9.5 and Mbed C
     * In the mbed_app.json file in the root of the application, modify the WiFi SSID and password for your network.
     * Save the changes.
 
-4. The supplied Bootloader in ../tools/ is currently built to use SPI Flash. If you are using the SPI Flash to store the certificates, then you are good to go. If you prefer to use the SD card for the storage, follow the steps below. If not, you may skip these.
+4. The supplied Bootloader in ../tools/ is currently built to use SPI Flash. If you are using the SPI Flash to store the certificates, then you are good to go. If you prefer to use the SD card for the storage, follow the steps below. If not, you may skip these and move to step 11.
 
 5. To build the bootloader to use the SD card: TIP: You may want to use atleast a Class 10, 2GB SD card.
     * Import the bootloader repo - https://github.com/ARMmbed/mbed-bootloader
