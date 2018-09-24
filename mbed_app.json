@@ -42,11 +42,11 @@
         },
         "wifi-ssid": {
             "help": "WiFi SSID",
-            "value": "\"systest\""
+            "value": "\"SSID\""
         },
         "wifi-password": {
             "help": "WiFi Password",
-            "value": "\"RaaSysT35T\""
+            "value": "\"Password\""
         },
         "sotp-section-1-address": {
             "help": "Flash sector address for SOTP sector 1",
