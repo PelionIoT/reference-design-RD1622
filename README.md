@@ -19,8 +19,6 @@ Based on the Reference Design, this example implementation is included to demons
 
 *MTB (Module Test Bed)* - this is part of the test infrastructure, and includes DAPLink circuit for programming the device, a range of I/O and loopback paths for automated testing.
 
-**Reference Application**
-Built on mbedOS, and includes Pelion Device Manager. This application has been configured to run on the Reference Design hardware, and will connect to the Pelion Cloud, and is capable of running the cloud based update service.
 
 # Version Information:
 
